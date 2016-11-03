@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ecasona.newapi.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/name"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher"
+        android:title="@string/app_name" />
+</menu>
