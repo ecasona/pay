@@ -20,14 +20,21 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
     compile fileTree(include: ['*.jar'], dir: 'libs')
+=======
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+>>>>>>> 22d0cc06100680cd5f40ff8bd4395ef6a6341a62
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'org.apache.httpcomponents:httpclient:4.5.2'
     compile 'org.apache.httpcomponents:httpcore:4.4.5'
     compile 'org.apache.httpcomponents:httpmime:4.5.2'
+=======
+>>>>>>> 22d0cc06100680cd5f40ff8bd4395ef6a6341a62
 }
