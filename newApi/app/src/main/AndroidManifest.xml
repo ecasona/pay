@@ -7,8 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-<<<<<<< HEAD
-        android:theme="@style/AppTheme"></application>
+        android:theme="@style/AppTheme">
 
     <activity
         android:name="com.alipay.sdk.app.H5PayActivity"
@@ -16,19 +15,6 @@
         android:exported="false"
         android:screenOrientation="behind"
         android:windowSoftInputMode="adjustResize|stateHidden" />
-=======
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
-
->>>>>>> 22d0cc06100680cd5f40ff8bd4395ef6a6341a62
+</application>
 </manifest>
